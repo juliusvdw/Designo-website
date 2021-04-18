@@ -116,6 +116,32 @@ p {
 
 .section2-image-wrapper {
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 999;
+  position: relative;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.section2-image-wrapper:hover {
+  background-color: #e7816b;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.section2-heading {
+  color: white;
+  font-size: 48px;
+  font-weight: 400 !important;
+}
+
+.section2-link {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-decoration: inherit !important;
+}
+.arrow {
+  color: #e7816b;
 }
