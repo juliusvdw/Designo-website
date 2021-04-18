@@ -1,14 +1,82 @@
+body {
+  font-family: "Jost", sans-serif !important;
+}
+
+p {
+  font-family: "Jost", sans-serif !important;
+}
 /*Navbar */
 
 .navbar {
-  margin-top: 40px;
+  margin-top: 32px;
 }
 .nav-item {
   font-size: 14px;
-  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .logo {
   max-width: 169px;
   max-height: 24px;
+}
+
+/*Home page First Section hero  */
+
+.home-first-section {
+  margin-top: 50px;
+  height: 640px;
+  width: 1111px;
+  border-radius: 10px;
+  background-color: #e7816b;
+  position: relative;
+}
+
+.first-section-text-container {
+  width: 600px;
+  height: 350px;
+  padding-top: 145px;
+  padding-left: 90px;
+}
+
+.first-section-text-heading {
+  font-size: 48px;
+  font-weight: medium;
+}
+.first-section-text-subtext {
+  padding-top: 25px;
+  font-size: 17px;
+}
+
+.first-section-btn {
+  margin-top: 40px;
+  width: 152px;
+  height: 56px;
+  border-radius: 7px !important;
+  font-size: 15px !important;
+  font-weight: medium;
+  transition: 0.2s !important;
+}
+
+.first-section-btn:hover {
+  color: white !important;
+  background-color: #ffad9b !important;
+  border: none !important;
+}
+
+.hero-pattern {
+  position: absolute;
+  display: inline-block;
+  height: 640px;
+  width: 640px;
+  top: 0;
+  right: 0;
+}
+
+.phone-image-container {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  max-height: 650px !important;
+  width: 284px !important;
 }
