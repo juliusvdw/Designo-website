@@ -180,3 +180,28 @@ p {
   margin-top: 30px;
   font-size: 16px;
 }
+
+/*Third Section Home page End */
+
+/*Fourth section start */
+
+.fourth-section {
+  position: relative;
+  padding-top: 150px;
+}
+
+.home-cta-box {
+  background-color: #e7816b;
+  position: absolute;
+  height: 292px;
+  border-radius: 7px;
+  top: -40px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.footer {
+  height: 393px;
+  background-color: #1d1c1e;
+}
+/*fourth section end */
