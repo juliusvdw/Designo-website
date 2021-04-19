@@ -81,6 +81,8 @@ p {
   width: 284px !important;
 }
 
+/* Home page first Section End */
+
 /*Second Section Home page */
 
 .second-section {
@@ -144,4 +146,37 @@ p {
 }
 .arrow {
   color: #e7816b;
+}
+
+/*Second Section Home page end */
+
+/*Third Section Home page start */
+
+.third-section {
+  margin-top: 150px;
+  background: url("assets/bg-pattern-leaf.svg");
+  background-repeat: no-repeat;
+  background-position: 480px 120px;
+  padding-bottom: 150px;
+}
+
+.third-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.third-image-container {
+  background: url("/assets/bg-pattern-small-circle.svg");
+  background-repeat: no-repeat;
+}
+
+.third-info-heading {
+  margin-top: 50px;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.third-info-text {
+  margin-top: 30px;
+  font-size: 16px;
 }
