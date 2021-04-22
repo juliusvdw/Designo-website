@@ -363,5 +363,29 @@ p {
     width: 100%;
   }
 
-  /*Home page third section end */
+  /*Home page third sectionz end */
+
+  /*Home page Fourth sectionz start */
+  .home-cta-box {
+    height: 350px;
+    flex-direction: column;
+    top: -130px;
+  }
+
+  .cta-text {
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+  }
+
+  .cta-heading {
+    width: 60%;
+    margin-bottom: 30px;
+  }
+
+  .cta-btn-container {
+    width: 100%;
+  }
+  /*Home page fourth sectionz end */
 }
