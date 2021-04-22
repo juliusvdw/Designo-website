@@ -25,7 +25,6 @@ p {
 .home-first-section {
   margin-top: 50px;
   height: 640px;
-  width: 1111px;
   border-radius: 10px;
   background-color: #e7816b;
   position: relative;
@@ -78,7 +77,7 @@ p {
   bottom: 0;
   right: 100px;
   max-height: 650px !important;
-  width: 284px !important;
+  width: 300px;
 }
 
 /* Home page first Section End */
@@ -163,6 +162,7 @@ p {
 .third-info-container {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .third-image-container {
@@ -202,6 +202,7 @@ p {
 
 .footer {
   height: 400px;
+  width: 100%;
   background-color: #1d1c1e;
 }
 
@@ -277,3 +278,90 @@ p {
 }
 
 /*fourth section end */
+
+/* Home Page Tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  /*Home Page first section start */
+  .first-section-text-container {
+    width: 593px;
+
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .first-section-text-subtext {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .home-first-section {
+    height: 843px;
+    overflow: hidden;
+  }
+
+  .first-section-text-heading {
+    font-size: 48px;
+  }
+
+  .first-section-btn {
+    margin-top: 30px;
+    font-weight: bold !important;
+  }
+
+  .hero-pattern {
+    top: 100px;
+    right: -150px;
+  }
+
+  .phone-image-container {
+    height: 573px !important;
+    bottom: -110px;
+    width: 500px;
+  }
+
+  .phone-image {
+    padding-left: 30px;
+  }
+
+  /* Home page forst section end*/
+
+  /* Home page second section start*/
+
+  .second-web-design {
+    background-size: cover;
+    max-height: 200px !important;
+    margin-bottom: 25px;
+  }
+
+  .second-row {
+    max-height: 200px !important;
+  }
+
+  /*Home page second section end */
+
+  /*Home page third section start */
+  .third-info-container {
+    flex-direction: row;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  .third-info-heading {
+    margin-top: 0px;
+    width: 100%;
+    text-align: left !important;
+  }
+
+  .third-info-text-container {
+    text-align: left !important;
+    width: 100%;
+    padding-left: 50px;
+  }
+
+  .third-info-text {
+    text-align: left !important;
+    width: 100%;
+  }
+
+  /*Home page third section end */
+}
