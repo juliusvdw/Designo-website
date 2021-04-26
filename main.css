@@ -446,6 +446,86 @@ p {
     max-height: 250px !important;
   }
   /*Second section end */
+
+  /*Third section start */
+  .third-info-container {
+    margin-bottom: 90px;
+  }
+  /*THird section end */
+
+  /*Fourth section start */
+  .home-cta-box {
+    width: 90% !important;
+    height: 379px;
+    flex-direction: column;
+  }
+
+  .cta-heading {
+    font-size: 32px !important;
+    width: 80%;
+  }
+
+  .cta-text {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .cta-subtext {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .cta-btn-container {
+    width: 100%;
+  }
+
+  .footer {
+    height: 815px;
+  }
+
+  .footer-content-container {
+    padding-top: 250px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .footer-link {
+    padding: 10px !important;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer-location {
+    text-align: center;
+  }
+
+  .footer-contact {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .footer-social {
+    width: 95%;
+    height: 50px;
+    padding-top: 30px;
+  }
+
+  /*fourth section end */
 }
 
 /* Home page xs mobile*/
@@ -500,4 +580,84 @@ p {
     max-height: 250px !important;
   }
   /*Second section end */
+
+  /*Third section start */
+  .third-info-container {
+    margin-bottom: 90px;
+  }
+  /*THird section end */
+
+  /*Fourth section start */
+  .home-cta-box {
+    width: 90% !important;
+    height: 379px;
+    flex-direction: column;
+  }
+
+  .cta-heading {
+    font-size: 32px !important;
+    width: 80%;
+  }
+
+  .cta-text {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .cta-subtext {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .cta-btn-container {
+    width: 100%;
+  }
+
+  .footer {
+    height: 815px;
+  }
+
+  .footer-content-container {
+    padding-top: 250px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .footer-link {
+    padding: 10px !important;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer-location {
+    text-align: center;
+  }
+
+  .footer-contact {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .footer-social {
+    width: 95%;
+    height: 50px;
+    padding-top: 30px;
+  }
+
+  /*fourth section end */
 }
