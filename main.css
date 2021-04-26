@@ -427,10 +427,29 @@ p {
   .phone-image {
     margin-left: -50px;
   }
+
+  /*Second section start */
+  .second-section-container {
+    height: 798px;
+  }
+
+  .second-section-row {
+    margin-left: 0px !important;
+  }
+
+  .second-web-design {
+    max-height: 250px !important;
+    margin-bottom: 20px;
+  }
+
+  .second-row {
+    max-height: 250px !important;
+  }
+  /*Second section end */
 }
 
 /* Home page xs mobile*/
-@media (min-width: 300px) and (max-width: 369px) {
+@media (max-width: 369px) {
   .first-section-text-container {
     width: 100%;
     padding: 26px;
