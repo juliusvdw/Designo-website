@@ -320,10 +320,10 @@ p {
   }
 
   .phone-image {
-    padding-left: 30px;
+    padding-left: 50px;
   }
 
-  /* Home page forst section end*/
+  /* Home page first section end*/
 
   /* Home page second section start*/
 
@@ -388,4 +388,42 @@ p {
     width: 100%;
   }
   /*Home page fourth sectionz end */
+}
+
+/* Home page mobile*/
+@media (min-width: 300px) and (max-width: 767px) {
+  .first-section-text-container {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .first-section-text-subtext {
+    font-size: 15px;
+  }
+
+  .home-first-section {
+    height: 110vh;
+    overflow: hidden;
+    margin-top: 30px;
+  }
+
+  .first-section-text-heading {
+    padding-top: 50px;
+    font-size: 32px;
+  }
+
+  .first-section-btn {
+    margin-top: 10px;
+  }
+
+  .phone-image-container {
+    height: 573px;
+    bottom: -150px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .phone-image {
+  }
 }
