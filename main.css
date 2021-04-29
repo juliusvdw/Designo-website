@@ -315,6 +315,40 @@ p {
 }
 
 /*Web design header section ends */
+
+/*Web design project section starts */
+.project-section {
+  padding-top: 150px;
+  min-height: 1100px;
+}
+
+.card {
+  border: 1px solid #fff !important;
+}
+
+.card-img-top {
+  height: 320px;
+  border-radius: 10px 10px 0px 0px !important;
+}
+
+.card-body {
+  background-color: #fdf3f0;
+  align-items: center !important;
+  border-radius: 0px 0px 10px 10px !important;
+}
+
+.card-text h2 {
+  font-size: 20px;
+  padding-top: 15px;
+  letter-spacing: 5px;
+  color: #e7816b;
+}
+.card-text p {
+  font-size: 16px;
+  padding-top: 7px;
+}
+/*Web design project section ends */
+
 /*WEB DESIGN PAGE START */
 
 /* Home Page Tablet*/
