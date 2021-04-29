@@ -283,11 +283,13 @@ p {
 
 /*Web design header section start */
 .header-container {
+  position: relative;
   margin-top: 50px;
   background-color: #e7816b;
   height: 252px;
   border-radius: 7px;
   align-items: center;
+  overflow: hidden;
 }
 
 .header-text {
@@ -303,6 +305,13 @@ p {
   font-size: 17px;
   width: 50%;
   margin-top: 15px;
+}
+
+.circles-web-design {
+  position: absolute;
+  max-height: 504px;
+  right: 0;
+  transform: rotate(180deg) scaleX(-1);
 }
 
 /*Web design header section ends */
