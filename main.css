@@ -28,6 +28,7 @@ p {
   border-radius: 10px;
   background-color: #e7816b;
   position: relative;
+  overflow: hidden;
 }
 
 .first-section-text-container {
@@ -75,7 +76,7 @@ p {
   display: inline-block;
   position: absolute;
   bottom: 0;
-  right: 100px;
+  right: 300px;
   max-height: 650px !important;
   width: 300px;
 }
