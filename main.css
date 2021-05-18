@@ -348,6 +348,21 @@ p {
   font-size: 16px;
   padding-top: 7px;
 }
+
+.categories-row {
+  height: 308px;
+  margin-top: 160px
+}
+
+.categories-app-design {
+  background-color: red;
+}
+
+.categories-graphic-design {
+  background-color: red;
+}
+
+
 /*Web design project section ends */
 
 /*WEB DESIGN PAGE START */
