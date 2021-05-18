@@ -351,15 +351,18 @@ p {
 
 .categories-row {
   height: 308px;
-  margin-top: 160px
+  margin-top: 160px;
+  margin-bottom:220px
 }
 
 .categories-app-design {
   background-color: red;
+  border-radius: 7px;
 }
 
 .categories-graphic-design {
   background-color: red;
+  border-radius:7px
 }
 
 
