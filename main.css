@@ -323,6 +323,11 @@ p {
   min-height: 1100px;
 }
 
+.project-section-graphic-design {
+  padding-top:150px;
+  min-height: 550px;
+}
+
 .card {
   border: 1px solid #fff !important;
 }
