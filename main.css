@@ -5,6 +5,11 @@ body {
 p {
   font-family: "Jost", sans-serif !important;
 }
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none !important;
+  
+}
 /*Navbar */
 
 .navbar {
