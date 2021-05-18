@@ -356,13 +356,31 @@ p {
 }
 
 .categories-app-design {
+  background: url('/assets/image-app-design.jpg');
+
   background-color: red;
   border-radius: 7px;
 }
 
 .categories-graphic-design {
+  background: url('/assets/image-graphic-design.jpg');
   background-color: red;
   border-radius:7px
+}
+
+.categories-image-wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px
+}
+
+.categories-image-wrapper:hover {
+  background-color: #e7816b;
+  opacity: 0.9;
+  cursor: pointer;
 }
 
 
