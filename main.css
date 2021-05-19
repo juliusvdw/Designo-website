@@ -322,7 +322,7 @@ a, a:hover, a:focus, a:active {
 
 /*Web design header section ends */
 
-/*Web design project section starts */
+/* project section starts */
 .project-section {
   padding-top: 150px;
   min-height: 1100px;
@@ -394,9 +394,44 @@ a, a:hover, a:focus, a:active {
 }
 
 
-/*Web design project section ends */
+/*project section ends */
 
-/*WEB DESIGN PAGE START */
+/*WEB DESIGN PAGE End */
+
+/* About us page start */
+.aboutus-hero-container {
+  height: 480px;
+  background-color: #e7816b;
+  margin-bottom: 160px;
+  margin-top:50px;
+  border-radius: 7px;
+}
+
+.about-hero-text-container {
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 540px;
+  padding-left: 100px;
+}
+
+.about-hero-heading {
+font-size: 48px;
+margin-bottom: 40px;
+}
+
+.about-hero-subtext {
+font-size:15px
+}
+
+.about-hero-image {
+  background: url('assets/image-about-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 7px 7px 0 ;
+
+}
+/*About us page end */
 
 /* Home Page Tablet*/
 @media (min-width: 768px) and (max-width: 1024px) {
