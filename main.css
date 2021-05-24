@@ -440,6 +440,7 @@ font-size:16px
   background-color: #FDF3F0;
   margin-bottom:60px;
   border-radius: 7px;
+  margin-bottom: 150px;
 }
 .about-talent-left{
   width: 476px !important;
@@ -465,6 +466,28 @@ align-content: center;
 .about-talent-text p {
   font-size:16px;
   color: 333136;
+}
+
+.location-row{
+  height: 364px;
+  margin-bottom: 150px;
+}
+
+.location-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.location-box-img-container {
+  background: url('assets/bg-pattern-small-circle.svg');
+  margin-bottom: 50px;
+}
+
+.location-box-location {
+  margin-bottom:30px
 }
 /*About us page end */
 
