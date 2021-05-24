@@ -408,28 +408,63 @@ a, a:hover, a:focus, a:active {
 }
 
 .about-hero-text-container {
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  align-content: center;
   color: #fff;
-  width: 540px;
-  padding-left: 100px;
+  width: 635px;
+  
 }
 
 .about-hero-heading {
 font-size: 48px;
 margin-bottom: 40px;
+width: 458px;
 }
 
 .about-hero-subtext {
-font-size:15px
+  width: 458px ;
+font-size:16px
 }
 
 .about-hero-image {
   background: url('assets/image-about-hero.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 476px !important;
   border-radius: 0 7px 7px 0 ;
+  
 
+}
+
+.talent-section-container{
+  height: 640px;
+  background-color: #FDF3F0;
+  margin-bottom:60px;
+  border-radius: 7px;
+}
+.about-talent-left{
+  width: 476px !important;
+  background:url('assets/image-world-class-talent.jpg');
+  border-radius: 7px 0 0 7px;
+}
+
+.about-talent-right {
+width: 635px;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+
+.about-talent-text {
+  width: 445px;
+}
+
+.about-talent-text h1 {
+  color: #e7816b;
+  margin-bottom:40px
+}
+.about-talent-text p {
+  font-size:16px;
+  color: 333136;
 }
 /*About us page end */
 
