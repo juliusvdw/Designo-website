@@ -489,6 +489,15 @@ align-content: center;
 .location-box-location {
   margin-bottom:30px
 }
+
+.location-box-btn {
+  width: 152px !important;
+  height: 56px !important;
+  border-radius: 7px !important;
+  border: none !important;
+  background-color: #e7816b !important;
+  color: #FFFF;
+}
 /*About us page end */
 
 /* Home Page Tablet*/
