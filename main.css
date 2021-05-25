@@ -497,11 +497,18 @@ align-content: center;
   border: none !important;
   background-color: #e7816b !important;
   color: #FFFF;
+  letter-spacing: 1px;
+}
+
+.location-box-btn:hover {
+  background-color: #ffad9b !important;
+  cursor:pointer;
+  
 }
 
 .real-deal-container{
   height: 640px;
-  margin-bottom: 200px;
+  margin-bottom: 220px;
   display: flex;
 }
 
