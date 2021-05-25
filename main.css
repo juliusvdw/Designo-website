@@ -498,6 +498,42 @@ align-content: center;
   background-color: #e7816b !important;
   color: #FFFF;
 }
+
+.real-deal-container{
+  height: 640px;
+  margin-bottom: 200px;
+  display: flex;
+}
+
+.real-deal-left{
+width: 635px;
+display: flex;
+background-color:#FDF3F0;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 7px 0 0 7px;
+}
+
+.real-deal-right{
+  width: 476px;
+  background: url('assets/image-real-deal.jpg');
+  border-radius: 0 7px 7px 0;
+}
+
+.real-deal-left-container {
+  width:445px;
+}
+
+.real-deal-heading {
+  color: #e7816b;
+  margin-bottom: 40px;
+  font-size: 48px;
+}
+
+.real-deal-left-container p {
+  font-size: 16px;
+}
 /*About us page end */
 
 /* Home Page Tablet*/
