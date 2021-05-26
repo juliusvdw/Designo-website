@@ -552,13 +552,26 @@ border-radius: 7px 0 0 7px;
 }
 
 .main-location-container {
-  margin-bottom: 160px;
+  margin-bottom: 220px;
 }
 
 .location-info{
   width: 730px;
   border-radius: 7px;
   background-color: #FDF3F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-location-heading {
+  margin-bottom:30px;
+  color: #e7816b;
+}
+
+
+.location-info-text {
+  width: 540px;
 }
 
 .location-map {
@@ -576,6 +589,28 @@ background: url('assets/image-map-australia.png');
 
 .location-uk-map {
 background:url('assets/image-map-united-kingdom.png')
+}
+
+.main-location-address{
+  flex: 1;
+}
+
+.main-location-contact {
+  flex: 1;
+}
+.main-location-address p {
+  margin: 5px;
+}
+
+.main-location-contact p {
+  margin: 5px
+}
+
+.main-location-text-heading {
+  font-weight:bold
+}
+.main-location-info-container {
+  display: flex;
 }
 /* Location page end*/
 
