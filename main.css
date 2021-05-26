@@ -543,6 +543,42 @@ border-radius: 7px 0 0 7px;
 }
 /*About us page end */
 
+/* Location page start */
+.main-location-row{
+  height: 326px;
+  padding-top: 30px;
+  
+  display: flex;
+}
+
+.main-location-container {
+  margin-bottom: 160px;
+}
+
+.location-info{
+  width: 730px;
+  border-radius: 7px;
+  background-color: #FDF3F0;
+}
+
+.location-map {
+  width: 350px;
+  border-radius: 7px;
+}
+
+.location-canada-map {
+background: url('assets/image-map-canada.png');
+}
+
+.location-australia-map {
+background: url('assets/image-map-australia.png');
+}
+
+.location-uk-map {
+background:url('assets/image-map-united-kingdom.png')
+}
+/* Location page end*/
+
 /* Home Page Tablet*/
 @media (min-width: 768px) and (max-width: 1024px) {
   /*Home Page first section start */
