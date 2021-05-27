@@ -600,10 +600,12 @@ background:url('assets/image-map-united-kingdom.png')
 }
 .main-location-address p {
   margin: 5px;
+  font-size: 16px;
 }
 
 .main-location-contact p {
-  margin: 5px
+  margin: 5px;
+  font-size:16px
 }
 
 .main-location-text-heading {
