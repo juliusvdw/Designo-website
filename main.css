@@ -320,6 +320,18 @@ a, a:hover, a:focus, a:active {
   transform: rotate(180deg) scaleX(-1);
 }
 
+.categories-app-design {
+  height: 100%;
+}
+
+.categories-web-design {
+  height: 100% ;
+}
+
+.categories-graphic-design {
+  height: 100% ;
+}
+
 /*Web design header section ends */
 
 /* project section starts */
@@ -819,6 +831,28 @@ background:url('assets/image-map-united-kingdom.png')
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  
+  .categories-row {
+    height: 424px;
+    margin-top: 120px;
+  }
+  .categories-app-design {
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .categories-web-design {
+    height: 200px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .categories-graphic-design {
+    height: 200px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
