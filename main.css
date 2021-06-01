@@ -379,14 +379,16 @@ a, a:hover, a:focus, a:active {
 
 .categories-app-design {
   background: url('/assets/image-app-design.jpg');
+  border-radius: 7px;
+}
 
-  background-color: red;
+.categories-web-design {
+  background: url('/assets/image-web-design-large.jpg');
   border-radius: 7px;
 }
 
 .categories-graphic-design {
   background: url('/assets/image-graphic-design.jpg');
-  background-color: red;
   border-radius:7px
 }
 
