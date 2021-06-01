@@ -359,6 +359,9 @@ a, a:hover, a:focus, a:active {
   align-items: center !important;
   border-radius: 0px 0px 10px 10px !important;
 }
+.card-text {
+  flex-direction: column;
+}
 
 .card-text h2 {
   font-size: 20px;
