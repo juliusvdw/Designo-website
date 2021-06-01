@@ -1045,6 +1045,10 @@ background:url('assets/image-map-united-kingdom.png')
     height: 250px;
     border-radius: 15px;
   }
+
+  .section2-heading {
+    font-size: 28px;
+  }
 }
 
 /* Home page xs mobile*/
