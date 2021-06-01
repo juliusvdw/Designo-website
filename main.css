@@ -995,7 +995,53 @@ background:url('assets/image-map-united-kingdom.png')
     padding-top: 30px;
   }
 
-  /* Hweb design mobile*/
+  /* Web design mobile*/
+
+  .header-heading h1 {
+    font-size: 32px ;
+  }
+
+  .header-subtext  {
+    font-size: 15px;
+    width: 100%;
+    
+  }
+
+  .project-section {
+    padding-top: 100px;
+  }
+
+  .card-text {
+    flex-direction: column;
+  }
+
+  .project-card {
+    margin-bottom: 40px;
+  }
+
+  .categories-row {
+    height: 524px;
+    margin-bottom: 150px;
+    margin-top: 90px;
+  }
+
+  .categories-image-wrapper {
+    border-radius: 15px;
+  }
+
+  .categories-app-design {
+    height: 250px;
+    border-radius: 15px;
+  }
+
+  .categories-graphic-design {
+    height: 250px;
+    border-radius: 15px;
+  }
+  .categories-web-design {
+    height: 250px;
+    border-radius: 15px;
+  }
 }
 
 /* Home page xs mobile*/
