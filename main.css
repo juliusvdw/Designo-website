@@ -338,7 +338,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .card-img-top {
-  height: 320px;
+  
   border-radius: 10px 10px 0px 0px !important;
 }
 
@@ -688,7 +688,7 @@ background:url('assets/image-map-united-kingdom.png')
   color: #FFFF !important;
 }
 /* Contact page ends */
-/* Home Page Tablet*/
+/*  Tablet*/
 @media (min-width: 768px) and (max-width: 1024px) {
   /*Home Page first section start */
   .first-section-text-container {
@@ -796,11 +796,36 @@ background:url('assets/image-map-united-kingdom.png')
   .cta-btn-container {
     width: 100%;
   }
-  /*Home page fourth sectionz end */
+  /*Web design page*/
+  .project-section {
+    padding-top: 115px;
+  }
+
+  .card {
+    flex-direction: row !important;
+    
+  }
+
+  .card-img-top {
+    width: 50% !important;
+  }
+
+  .project-card {
+    height: 310px ;
+    margin-bottom: 40px ;
+  }
+
+  .card-text {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-/* Home page mobile*/
+/* Mobile */
 @media (min-width: 370px) and (max-width: 767px) {
+
+  /* Home page mobile*/
   .first-section-text-container {
     width: 100%;
     padding: 30px;
@@ -934,7 +959,7 @@ background:url('assets/image-map-united-kingdom.png')
     padding-top: 30px;
   }
 
-  /*fourth section end */
+  /* Hweb design mobile*/
 }
 
 /* Home page xs mobile*/
