@@ -100,14 +100,18 @@ a, a:hover, a:focus, a:active {
 }
 
 .second-web-design {
-  background-image: url("/assets/image-web-design-large.jpg");
+  background-image: url("/assets/image-web-design-large.jpg");  
   background-repeat: no-repeat;
-  border-radius: 7px;
+  border-radius: 10px !important;
+}
+
+.second-web-col {
+  height: 100%;
 }
 .second-app-design {
   background-image: url("/assets/image-app-design.jpg");
   background-repeat: no-repeat;
-  border-radius: 7px !important;
+  border-radius: 10px !important;
   background-size: cover;
   height: 95% !important;
   margin-bottom: 2%;
@@ -115,7 +119,7 @@ a, a:hover, a:focus, a:active {
 .second-graphic-design {
   background-image: url("/assets/image-graphic-design.jpg");
   background-repeat: no-repeat;
-  border-radius: 7px !important;
+  border-radius: 10px !important;
   background-size: cover;
   margin-top: 2%;
   height: 95% !important;
@@ -124,7 +128,7 @@ a, a:hover, a:focus, a:active {
 .section2-image-wrapper {
   background-color: rgba(0, 0, 0, 0.5);
   position: relative;
-  border-radius: 10px;
+  border-radius: 10px !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -490,6 +494,8 @@ align-content: center;
   margin-bottom: 150px;
 }
 
+
+
 .location-box {
   display: flex;
   flex-direction: column;
@@ -636,11 +642,18 @@ background:url('assets/image-map-united-kingdom.png')
 /* Contact page starts */
 
 .contact-container {
+  position: relative;
   height:480px;
   margin-top: 50px;
   margin-bottom:160px;
   background-color: #e7816b;
   border-radius: 7px;
+  overflow: hidden;
+}
+
+.contact-pattern {
+  position: absolute;
+  bottom: 0;
 }
 
 .contact-left {
@@ -759,6 +772,10 @@ background:url('assets/image-map-united-kingdom.png')
     margin-bottom: 25px;
   }
 
+
+.second-section-row {
+  margin: 0px !important;
+}
   .second-row {
     max-height: 200px !important;
   }
@@ -859,6 +876,85 @@ background:url('assets/image-map-united-kingdom.png')
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  /*Contact Page */
+
+  .contact-container {
+    height: 711px;
+  }
+
+  .contact-left {
+    width: 100%;
+  
+  }
+
+  .contact-heading {
+    width: 80%;
+  }
+
+  .contact-text {
+    width: 80%;
+  }
+
+  .contact-form {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -200px;
+  }
+
+  .contact-pattern {
+    top: -75px;
+    left: -120px;
+  }
+
+  .location-row {
+    height: 1230px;;
+  }
+
+  .location-box {
+    margin-bottom: 75px;
+  }
+
+  /* Location page */ 
+
+  .main-location-row {
+    height: 680px;
+   flex-direction: column;
+   margin-bottom: 100px;
+  }
+
+  .location-map {
+    height: 326px;
+    width: 100%;
+    order: 1;
+    border-radius: 15px;
+  }
+
+  .location-info {
+    height: 326px;
+    width: 100%;
+    order: 2;
+    margin-top: 30px;
+    border-radius: 15px;
+  }
+
+  .location-canada-map {
+    background-repeat: none;
+    background-size: cover;
+  }
+
+  .location-uk-map {
+    background-repeat: none;
+    background-size: cover;
+  }
+
+  .location-australia-map {
+    background-repeat: none;
+    background-size: cover;
+  }
+  
+
+  
 }
 
 /* Mobile */
@@ -914,6 +1010,8 @@ background:url('assets/image-map-united-kingdom.png')
     max-height: 250px !important;
     margin-bottom: 20px;
   }
+
+  
 
   .second-row {
     max-height: 250px !important;
