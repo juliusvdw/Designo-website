@@ -434,6 +434,7 @@ a, a:hover, a:focus, a:active {
   align-content: center;
   color: #fff;
   width: 635px;
+  height: 100%;
   
 }
 
@@ -452,8 +453,6 @@ font-size:16px
   background: url('assets/image-about-hero.jpg');
   width: 476px !important;
   border-radius: 0 7px 7px 0 ;
-  
-
 }
 
 .talent-section-container{
@@ -953,7 +952,96 @@ background:url('assets/image-map-united-kingdom.png')
     background-size: cover;
   }
   
+/* About us page*/
 
+.aboutus-hero-container {
+  flex-direction: column;
+  height: 632px;
+  border-radius: 15px 15px 15px 15px  ;
+  
+}
+
+.about-hero-text-container {
+  order: 2;
+  height: 320px !important;
+  width: 100%;
+  text-align: center;
+}
+
+.about-hero-image {
+  order: 1;
+  width: 100% !important;
+  height: 320px !important;
+  background-size: cover;
+  background-repeat:no-repeat;
+  border-radius: 15px 15px;
+}
+.about-hero-subtext {
+  width: 85%;
+}
+
+.talent-section-container {
+  flex-direction: column;
+  height: 736px;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.about-talent-left {
+ order: 1;
+ height: 320px;
+ width: 100% !important;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 100% 60%;
+ border-radius: 15px 15px 0 0 ;
+}
+
+.about-talent-right {
+  order: 2;
+  height: calc(736px - 320px);
+  width:100% !important;
+  text-align:center;
+  border-radius: 15px
+  
+}
+
+
+.about-talent-text {
+  width: 100%;
+}
+.about-talent-text p {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.real-deal-container {
+  flex-direction: column;
+  height: 736px;
+
+}
+.real-deal-left {
+  order: 2;
+  height: calc(736px - 320px) ;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.real-deal-right {
+  order: 1;
+  width: 100%;
+  height: 320px;
+  border-radius: 15px 15px 0 0 ;
+}
+
+.real-deal-left-container {
+  width: 100%;
+  text-align: center;
+}
+
+.real-deal-left-container p {
+  width: 85%;
+  margin:  0 auto;
+}
   
 }
 
