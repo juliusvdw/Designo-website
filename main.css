@@ -713,6 +713,10 @@ background:url('assets/image-map-united-kingdom.png')
   letter-spacing: 1px;
 }
 
+.contact-btn-container {
+  text-align: right;
+}
+
 .contact-submit-btn:hover {
   background-color: #FFAD9B !important;
   color: #FFFF !important;
@@ -1392,6 +1396,34 @@ background:url('assets/image-map-united-kingdom.png')
 
   .main-location-contact p {
     font-size: 15px
+  }
+
+  /*Contact page mobile */
+
+  .contact-container {
+    height: 764px;
+  }
+
+  .contact-left {
+    text-align: center;
+    
+  }
+  .contact-form {
+    width: 79%;
+    margin: 0 auto;
+    margin-top: -120px;
+  }
+
+  .contact-text {
+    width: 90%;
+  }
+
+  .contact-heading {
+    width: 100%;
+  }
+
+  .contact-btn-container{
+    text-align: center ;
   }
 }
 
