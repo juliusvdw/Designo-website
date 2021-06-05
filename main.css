@@ -757,9 +757,10 @@ background:url('assets/image-map-united-kingdom.png')
   }
 
   .phone-image-container {
-    height: 573px !important;
+    height: 620px !important;
     bottom: -110px;
     width: 500px;
+    margin-right: -80px;
   }
 
   .phone-image {
@@ -1083,7 +1084,8 @@ background:url('assets/image-map-united-kingdom.png')
   }
 
   .phone-image {
-    margin-left: -50px;
+    margin-left: -160px;
+    
   }
 
   /*Second section start */
